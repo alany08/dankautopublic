@@ -8,7 +8,7 @@ Features
 
 Please feel free to send in pull requests if you would like to suggest changes.
 
-##Installation
+## Installation
 1. Download the entirety of the v3 folder (note that v2 may not work, and in the future v3 may not work as well due to discord changing the element class names)
 2. Download chrome driver from the official website
 3. Check the __main__.py in the folder of v3 and set your own configuration
