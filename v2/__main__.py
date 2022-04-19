@@ -18,86 +18,21 @@ import json
 #Use dict for commands, timeouts, last run etc... while true check the each command, only run 1 each loop and sleep random at the end of loop. Detect if the command was "cooled down" or not
 
 trivpath = "\\".join(__file__.split("\\")[0:-1]) + "\\trivia.json"
-
-#email = input("Email: ")
-#pwd = input("Password: ")
-
-"""
-try:
-    if "me" in sys.argv[1]:
-        me = True
-    elif "rohit" in sys.argv[1]:
-        me = False
-except:
-    me = True
-"""
-
-try:
-    if sys.argv[1] == "alan":
-        #my alts
-        #Presaved comfig, New email/pwd
-        #That's boredperson
-        #email = "fisifi5756@wii999.com"
-        email = "alanyu08+coinfarmeralt@gmail.com"
-        pwd = "New Passcode"
-        usekno = False
-        useapple = True
-        usepizza = False
-        usespinner = True
-        usecandy = True
-        autosell = False
-        serverindex = 0
-        channelindex = 4
-        loggingurl = "https://discord.com/api/webhooks/902771079519567963/YDk0JOwXEr1U1op-98268ByaSVT_bz7v4DhqvkIgPgHjRqGJhzGjviBy9RZGdRk-5vNZ"
-        sleeptime = 10800
-        chromepath = "C:\\Users\\ning\\Documents\\chromedriver.exe"
-        keepawake = False
-    elif sys.argv[1] == "wisdom":
-        email="JeffLikesRoblox@gmail.com"
-        pwd="LynbrookHighSchool!"
-        usekno = False
-        useapple = True
-        usepizza = False
-        usespinner = True
-        usecandy = True
-        autosell = False
-        serverindex = 0
-        channelindex = 5
-        loggingurl = "https://discord.com/api/webhooks/903138699196366929/b3xkErARLmrm36kbWiEgtlpgUtvzzr5ezfOaakh87SLfZwmqgZ3mwqHFYfCgSf_4Cg1U"
-        sleeptime = 10800
-        chromepath = "C:\\Users\\wisdo\\OneDrive\\Documents\\chromedriver.exe"
-        keepawake = True
-    elif sys.argv[1] == "nathan":
-        email = "dankmemerfarmNZ@gmail.com"
-        pwd = "yesyes123yesyes"
-        usekno = False
-        useapple = True
-        usepizza = False
-        usespinner = True
-        usecandy = True
-        autosell = False
-        serverindex = 1
-        channelindex = 8
-        loggingurl = "https://discord.com/api/webhooks/903132342376353802/_PAoAotn0rrveEU1UC8MTPcceppfJKXEpSYhHDK4EQPQo0hDyfZCq0emtnMc714FTN-a"
-        sleeptime = 10800
-        chromepath = "/Users/nathanzhao/Downloads/chromedriver"
-        keepawake = True
-    elif sys.argv[1] == "rohit":
-        #Rohit's alt
-        email = "tbob13574@gmail.com"
-        pwd = "thisisalt"
-        usekno = False
-        useapple = True
-        usepizza = False
-        usespinner = True
-        usecandy = True
-        autosell = False
-        serverindex = 0
-        channelindex = 11
-        loggingurl = "https://discord.com/api/webhooks/901862585756942376/UjIKVenNaeEi2Qs6ry98nrC_Bu1WSYApkbL0w4JcDSrvWUncFsl8Cslkcoyzz9ckd_I8"
-        sleeptime = 10800
-        chromepath = "\\"
-        keepawake = True
+    if sys.argv[1] == "yourpreset":
+        email = #your account email
+        pwd = #your account passcode
+        usekno = #True/False whether or not to automatically use banknotes
+        useapple = #True/False for apples
+        usepizza = #True/False for pizzas
+        usespinner = #True/False for fidget spinners
+        usecandy = #True/False for candy
+        autosell = #Automatically sell items, this feature is trash dont use it
+        serverindex = #Starts at 0, which server do you want to autofarm in. (depends on your ordering)
+        channelindex = #Which channel counting from 0
+        loggingurl = #Webhook url to send logs to.
+        sleeptime = #Amount of time to go afk at 2 am in th emorning
+        chromepath = #Selenium chrome driver path.
+        keepawake = #Whether or not to keep the computer awake or not by sending random mouse movements.
     else:
         args = sys.argv
         args.pop(0)
