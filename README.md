@@ -1,3 +1,5 @@
+# THIS DOES NOT WORK WITH THE LATEST VERSION OF DANK MEMER, YOU MAY USE THIS AS REFERENCE TO BUILD YOUR OWN BOT!
+
 # DANKAUTO
 Helps you automatically farm for currency in Dank Memer. Please note before you continue, that this repository is no longer maintained, and may get you banned from Dank Memer (be careful about running this script on large amounts of alts).
 
@@ -15,5 +17,3 @@ Please feel free to send in pull requests if you would like to suggest changes.
 4. Go ahead and run the script, you'll probably encounter errors about the dependencies, install these libraries as you go.
 5. Finally, run the script with an argument, your preset configuration name.
 6. Hopefully you don't get banned, I got the alts disabled for running this on about 4 alts, so try not to run it on a lot of accounts. Be aware when you get api temp-bans, they last for an hour FYI.
-
-# THIS DOES NOT WORK WITH THE LATEST VERSION OF DANK MEMER, YOU MAY USE THIS AS REFERENCE TO BUILD YOUR OWN BOT!
